@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -6,6 +8,7 @@
 
 body {
   background: #1d1d3a !important;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* navbar.js css */
@@ -402,8 +405,100 @@ body {
     cursor: pointer;
     background: #ffa000;
     font-weight: 600;
-    margin-top: 5px;
+    margin-top: -5px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
+  /* locked bnb css */
+
+  .locked_bnb_main_div {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+  }
+
+  .locked_bnb_detail_div_1 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 320px;
+    height: 350px;
+    margin: 25px;
+    background: linear-gradient(255.12deg, #0e0c1d, #0e0d29);
+  }
+
+  .number_locked_Div span {
+    width: 40px;
+    height: 40px;
+    background: #1adec2;
+    border-radius: 50px;
+    margin-left: 20px;
+    color: #444;
+    font-weight: 700;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    margin-top: 17px;
+  }
+
+  .locked_left_right {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+  }
+  
+  .locked_left span {
+    color: #999;
+    font-size: 12px;
+  }
+  
+  .locked_left h2 {
+    color: #1adec2;
+  }
+  
+  .locked_left input {
+    border: none;
+    font-size: 25px;
+    width: 120px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 5px;
+    background: linear-gradient(255.12deg, #211d3d, #15142b);
+    color: #1adec2;
+    font-weight: 600;
+  }
+  
+  .locked_right span {
+    color: #999;
+    font-size: 12px;
+  }
+  
+  .locked_right h2 {
+    color: #1adec2;
+  }
+  
+  .stake_locked_btn {
+      padding: 0 20px;
+      text-align: center;
+  }
+  
+  .stake_locked_btn button {
+      outline: none;
+      border: none;
+      border-radius: 20px;
+      width: 100%;
+      padding: 15px;
+      cursor: pointer;
+      background: #1adec2;
+      font-weight: 600;
+      margin-top: -5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
