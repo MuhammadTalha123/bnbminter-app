@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1d1d3a !important;
+}
+
+.main_navbar_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 35px;
+}
+
+.logo_telegram {
+  display: flex;
+}
+
+#telegram_btn {
+  margin: 5px 20px;
+  background: linear-gradient(255.12deg, #48139e, #82058d);
+  padding: 10px;
+  color: #ffffff;
+  outline: none;
+  outline-style: none;
+  border-radius: 20px;
+  font-size: 12px;
+  border: 1px solid #48139e;
+  height: 36px;
+}
+
+#telegram_btn i {
+  margin-right: 5px;
+  font-size: 15px;
+}
+
+.wallet_other_btns {
+  display: flex;
+}
+
+.wallet_other_btns h3 {
+  font-weight: 900;
+  margin-right: 20px;
+  margin-top: 10px;
+  color: #1adec2;
+}
+
+#audit_btn {
+  background: #3d5399 !important;
+  background: linear-gradient(255.12deg, #48139e, #3d5399) !important;
+  color: #ffffff !important;
+  font-weight: 700;
+  padding: 10px;
+  margin-right: 20px;
+  width: 75px;
+  outline: none;
+  outline-style: none;
+  border-radius: 20px;
+  font-size: 12px;
+  border: 1px solid #48139e;
+  height: 40px;
+}
+
+#contract_btn {
+  background: linear-gradient(255.12deg, #48139e, #eb6c92);
+  font-size: 12px;
+  margin-right: 20px;
+  color: #fff !important;
+  padding: 10px;
+  font-weight: 600;
+  width: 125px;
+  outline: none;
+  outline-style: none;
+  border-radius: 20px;
+  font-size: 12px;
+  border: 1px solid #48139e;
+  height: 40px;
+}
+#contract_btn i {
+  margin-right: 5px;
+}
+
+#how_works_btn {
+  background: linear-gradient(255.12deg, #48139e, #eb6c92);
+  font-size: 12px;
+  margin-right: 20px;
+  color: #fff !important;
+  padding: 10px;
+  font-weight: 600;
+  width: 130px;
+  outline: none;
+  outline-style: none;
+  border-radius: 20px;
+  font-size: 12px;
+  border: 1px solid #48139e;
+  height: 40px;
+}
+
+#connect_wallet_btn {
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  background: #ffa000;
+  background: linear-gradient(255.12deg, #f1b752, #ff7b00);
+  font-size: 12px;
+  color: #362c15;
+}

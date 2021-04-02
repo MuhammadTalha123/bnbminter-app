@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className="main_navbar_div">
       <div className="logo_telegram">
         <img src={mainLogo} width="200" />
-        <button>
+        <button id="telegram_btn">
           <a>
             <i className="fab fa-telegram"></i>TELEGRAM
           </a>
@@ -14,18 +14,18 @@ const Navbar = () => {
       </div>
       <div className="wallet_other_btns">
         <h3>0 BNB</h3>
-        <button>
+        <button id="audit_btn">
           <a>AUDIT</a>
         </button>
-        <button>
+        <button id="contract_btn">
           <a>
             <i className="fas fa-file-contract"></i>CONTRACT
           </a>
         </button>
-        <button>
+        <button id="how_works_btn">
           <a>HOW IT WORKS?</a>
         </button>
-        <button>
+        <button id="connect_wallet_btn">
           <a>CONNECT WALLET</a>
         </button>
       </div>
