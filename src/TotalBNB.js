@@ -3,35 +3,35 @@ import React from "react";
 const TotalBNB = () => {
   return (
     <div className="Total_bnb_main_div">
-      <div className="copy_url_div">
-        <h2>Copied! "https://bnbminter.app/?ref=null"</h2>
+      <div className="url_div">
+        <span>Copied! "https://bnbminter.app/?ref=null"</span>
       </div>
       <div className="total_bnb_parts">
         <div className="mint_bnb_div">
-          <p>Staked BNB</p>
+          <span>Staked BNB</span>
           <h2>0.00</h2>
-          <p>Available BNB to Mint</p>
+          <span>Available BNB to Mint</span>
           <div className="mint_bnb_btn">
             <button>MINT BNB</button>
           </div>
         </div>
         <div className="plan_div">
-          <p>Staked BNB (LOCKED)</p>
+          <span>Staked BNB (LOCKED)</span>
           <h2>0.00</h2>
-          <p>Total Plans length</p>
+          <span>Total Plans length</span>
           <h4>PLAN</h4>
         </div>
         <div className="copy_url_div">
-          <p>Total Referral Earned</p>
-          <p>Referral Withdrawn</p>
+          <span>Total Referral Earned</span>
+          <span>Referral Withdrawn</span>
           <div className="copy_url_btn">
             <button>COPY LINK</button>
           </div>
         </div>
-        <div className="plan_div">
-          <p>Total BNB Staked</p>
+        <div className="total_contract_balance_div">
+          <span>Total BNB Staked</span>
           <h2>5,629.27 BNB</h2>
-          <p>Total Contract Balance</p>
+          <span>Total Contract Balance</span>
           <h2>3,782.76 BNB</h2>
         </div>
       </div>
