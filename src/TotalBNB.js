@@ -4,7 +4,7 @@ const TotalBNB = () => {
   return (
     <div className="Total_bnb_main_div">
       <div className="copy_url_div">
-        <h2>https://bnbminter.app/?ref=null</h2>
+        <h2>Copied! "https://bnbminter.app/?ref=null"</h2>
       </div>
       <div className="total_bnb_parts">
         <div className="mint_bnb_div">
