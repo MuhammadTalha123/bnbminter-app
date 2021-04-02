@@ -195,10 +195,10 @@ body {
 }
 
 .mint_bnb_btn button:hover {
-    background: #000;
-    color: #ffa000;
-    transform: scale(1.1);
-    transition: 0.5s;
+  background: #000;
+  color: #ffa000;
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 
 .plan_div {
@@ -278,8 +278,8 @@ body {
 }
 
 .copy_url_btn button:hover {
-    transform: scale(1.1);
-    transition: 0.5s;
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 
 .total_contract_balance_div {
@@ -298,11 +298,112 @@ body {
 }
 
 .total_contract_balance_div span {
-    color: #999;
-    font-size: 12px;
+  color: #999;
+  font-size: 12px;
 }
 
 .total_contract_balance_div h2 {
-    color: #ffa000;
-    font-size: 35px;
+  color: #ffa000;
+  font-size: 35px;
 }
+
+/* anytime bnb css */
+
+.anytime_bnb_main_div {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+}
+
+.anytime_bnb_detail_div_1 {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  width: 320px;
+  height: 350px;
+  margin: 25px;
+  background: linear-gradient(255.12deg, #0e0c1d, #0e0d29);
+}
+
+/* .number_Div {
+  background: #ffa000;
+  text-align: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+} */
+
+.number_Div span {
+  width: 40px;
+  height: 40px;
+  background: #ffb600;
+  border-radius: 50px;
+  margin-left: 20px;
+  color: #444;
+  font-weight: 700;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  margin-top: 17px;
+}
+
+.anytime_left_right {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.anytime_left span {
+  color: #999;
+  font-size: 12px;
+}
+
+.anytime_left h2 {
+  color: #ffb600;
+}
+
+.anytime_left input {
+  border: none;
+  font-size: 25px;
+  width: 120px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-top: 5px;
+  background: linear-gradient(255.12deg, #211d3d, #15142b);
+  color: #ffb600;
+  font-weight: 600;
+}
+
+.anytime_right span {
+  color: #999;
+  font-size: 12px;
+}
+
+.anytime_right h2 {
+  color: #ffb600;
+}
+
+.stake_btn {
+    padding: 0 20px;
+    text-align: center;
+}
+
+.stake_btn button {
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    padding: 15px;
+    cursor: pointer;
+    background: #ffa000;
+    font-weight: 600;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
