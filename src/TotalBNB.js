@@ -31,6 +31,7 @@ const TotalBNB = () => {
         <div className="total_contract_balance_div">
           <span>Total BNB Staked</span>
           <h2>5,629.27 BNB</h2>
+          <br />
           <span>Total Contract Balance</span>
           <h2>3,782.76 BNB</h2>
         </div>
