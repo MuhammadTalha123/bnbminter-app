@@ -6,22 +6,16 @@ const Footer = () => {
   return (
     <div className="footer_main_div">
       <div className="footer_left">
-        <span>Powered by</span>
-        <br />
-        <span>
-          <a href="#">Binance Smart Chain</a>
-        </span>
+        <p>Powered by</p>
+          <a href="https://www.binance.org/en/smartChain" target="_blank">Binance Smart Chain</a>
       </div>
       <div className="footer_center">
         <img src={haze2} width="90" />
         <img src={footerlogo1} width="90" />
       </div>
       <div className="footer_right">
-        <span>© 2021 by AV. All rights reserved.</span>
-        <br />
-        <span>
-          <a href="#">www.BNBMinter.app</a>
-        </span>
+        <p>© 2021 by AV. All rights reserved.</p>
+          <a href="https://bnbminter.app/" target="_blank">www.BNBMinter.app</a>
       </div>
     </div>
   );

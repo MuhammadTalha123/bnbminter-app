@@ -5,22 +5,22 @@ const TotalRoi = () => {
     <div className="anytime_locked_roi">
       <div className="anytime_roi">
         <div className="anytime_roi_left">
-          <p>Any TIme </p>
-          <p>TOTAL</p>
+          <h3>Any TIme </h3>
+          <p>Total ROI</p>
         </div>
         <div className="anytime_roi_right">
-          <h4>0.00 BNB</h4>
-          <p>$0.00 USD</p>
+          <h2>0.00 BNB</h2>
+          <span>$0.00 USD</span>
         </div>
       </div>
       <div className="locked_roi">
         <div className="locked_roi_left">
-          <p>Locked </p>
-          <p>TOTAL</p>
+          <h3>Locked </h3>
+          <p>Total ROI</p>
         </div>
         <div className="locked_roi_right">
-          <h4>0.00 BNB</h4>
-          <p>$0.00 USD</p>
+          <h2>0.00 BNB</h2>
+          <span>$0.00 USD</span>
         </div>
       </div>
     </div>

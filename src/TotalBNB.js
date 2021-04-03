@@ -3,8 +3,8 @@ import React from "react";
 const TotalBNB = () => {
   return (
     <div className="Total_bnb_main_div">
-      <div className="url_div">
-        <span>Copied! "https://bnbminter.app/?ref=null"</span>
+      <div className="url_div" >
+        <span id="url"  style={{display: "none"}}>Copied! "https://bnbminter.app/?ref=null"</span>
       </div>
       <div className="total_bnb_parts">
         <div className="mint_bnb_div">

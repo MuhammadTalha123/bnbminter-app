@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 * {
   padding: 0;
@@ -8,7 +8,7 @@
 
 body {
   background: #1d1d3a !important;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* navbar.js css */
@@ -235,7 +235,7 @@ body {
 }
 
 .copy_url_div {
-  background: linear-gradient(255.12deg, #48139e, #eb6c92);
+  background: linear-gradient(255.12deg, #2b0b5e 70%, #eb6c92) !important;
   position: relative;
   margin-right: 50px;
   width: 200px;
@@ -293,8 +293,8 @@ body {
   display: flex;
   -webkit-flex-direction: column;
   flex-direction: column;
-  width: 20%;
   height: 200px;
+  width: 300px;
   justify-content: space-evenly;
   box-sizing: border-box;
   align-items: end;
@@ -392,115 +392,378 @@ body {
 }
 
 .stake_btn {
-    padding: 0 20px;
-    text-align: center;
+  padding: 0 20px;
+  text-align: center;
 }
 
 .stake_btn button {
-    outline: none;
-    border: none;
-    border-radius: 20px;
-    width: 100%;
-    padding: 15px;
-    cursor: pointer;
-    background: #ffa000;
-    font-weight: 600;
-    margin-top: -5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  width: 100%;
+  padding: 15px;
+  cursor: pointer;
+  background: #ffa000;
+  font-weight: 600;
+  margin-top: -5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* locked bnb css */
+
+.locked_bnb_main_div {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+}
+
+.locked_bnb_detail_div_1 {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  width: 320px;
+  height: 350px;
+  margin: 25px;
+  background: linear-gradient(255.12deg, #0e0c1d, #0e0d29);
+}
+
+.number_locked_Div span {
+  width: 40px;
+  height: 40px;
+  background: #1adec2;
+  border-radius: 50px;
+  margin-left: 20px;
+  color: #444;
+  font-weight: 700;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  margin-top: 17px;
+}
+
+.locked_left_right {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.locked_left span {
+  color: #999;
+  font-size: 12px;
+}
+
+.locked_left h2 {
+  color: #1adec2;
+}
+
+.locked_left input {
+  border: none;
+  font-size: 25px;
+  width: 120px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-top: 5px;
+  background: linear-gradient(255.12deg, #211d3d, #15142b);
+  color: #1adec2;
+  font-weight: 600;
+}
+
+.locked_right span {
+  color: #999;
+  font-size: 12px;
+}
+
+.locked_right h2 {
+  color: #1adec2;
+}
+
+.stake_locked_btn {
+  padding: 0 20px;
+  text-align: center;
+}
+
+.stake_locked_btn button {
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  width: 100%;
+  padding: 15px;
+  cursor: pointer;
+  background: #1adec2;
+  font-weight: 600;
+  margin-top: -5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* total roi css */
+
+.anytime_locked_roi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: -webkit-flex;
+  height: 110px;
+  margin: 0 250px;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  box-shadow: 0 3px 51px #03031b;
+}
+
+.anytime_roi {
+  display: flex;
+  background: #ffa000;
+  width: 50%;
+  height: 110px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.anytime_roi_left {
+  margin: 0 0 30px 30px;
+}
+
+.anytime_roi_left h3 {
+  color: #fff;
+}
+
+.anytime_roi_left p {
+  color: #180c42;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.anytime_roi_right {
+  margin: 30px 30px 0px 0;
+}
+
+.anytime_roi_right h2 {
+  font-size: 28px;
+  color: #222 !important;
+}
+
+.anytime_roi_right span {
+  font-size: 16px;
+  color: #444 !important;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.locked_roi {
+  display: flex;
+  background: #1adec2;
+  width: 50%;
+  height: 110px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.locked_roi_left {
+  margin: 0 0 30px 30px;
+}
+
+.locked_roi_left h3 {
+  color: #fff;
+}
+
+.locked_roi_left p {
+  color: #180c42;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.locked_roi_right {
+  margin: 30px 30px 0px 0;
+}
+
+.locked_roi_right h2 {
+  font-size: 28px;
+  color: #222 !important;
+}
+
+.locked_roi_right span {
+  font-size: 16px;
+  color: #444 !important;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* footer css */
+
+.footer_main_div {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  padding: 30px 35px;
+  margin-top: 50px;
+  background: #191732;
+  border-top: 1px solid #333358;
+}
+
+.footer_main_div p {
+  margin: 0;
+  font-size: 12px;
+  color: #d26ceb;
+  opacity: 0.5;
+}
+
+.footer_main_div a {
+  color: #cc9112;
+  font-size: 11px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.footer_main_div a:hover {
+  border-bottom: 1px solid #cc9112;
+}
+
+/* animation_logo_main_div css */
+
+.animation_logo_main_div {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(255.12deg, #2b0b5e 30%, #eb6c92) !important;
+  color: #bfb5fa;
+  border-radius: 50px;
+  font-weight: 700;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  position: fixed;
+  bottom: 50px;
+  left: 50px;
+  box-shadow: 0 3px 51px #424266;
+  cursor: pointer;
+  border: 1px solid #2b0b5e;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-transform-origin: bottom;
+  transform-origin: bottom;
+  -webkit-animation-name: bounce-1;
+  animation-name: bounce-1;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+.animation_logo_main_div i {
+  font-size: 22px;
+}
+
+@keyframes bounce-1 {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+50% {
+  -webkit-transform: translateY(-18px);
+  transform: translateY(-18px);
+}
+100% {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+}
+
+@media only screen and (max-width: 1100px) {
+  .anytime_locked_roi {
+    margin: 0 150px;
   }
+}
 
-  /* locked bnb css */
-
-  .locked_bnb_main_div {
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    flex-flow: wrap;
+@media only screen and (max-width: 1000px) {
+  .total_contract_balance_div {
+    margin-top: 50px;
   }
+}
 
-  .locked_bnb_detail_div_1 {
+@media only screen and (max-width: 850px) {
+  .anytime_locked_roi {
+    margin: 0 100px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .anytime_locked_roi {
+    margin: 0 50px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .total_bnb_parts {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .copy_url_div{
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  .copy_url_btn {
+    position: relative;
+    transform: translate(0px, 30px);
+    justify-content: center;
+  }
+  .plan_div {
+    margin-top: 20px;
+  }
+  .mint_bnb_div {
+    margin-top: 20px;
+  }
+  .mint_bnb_btn {
+    position: absolute;
+    transform: translate(0px, 90px);
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .main_navbar_div {
     display: flex;
     flex-direction: column;
-    border-radius: 20px;
-    width: 320px;
-    height: 350px;
-    margin: 25px;
-    background: linear-gradient(255.12deg, #0e0c1d, #0e0d29);
+    align-items: self-start;
+  }
+  .logo_telegram {
+    display: flex;
+    flex-direction: column;
   }
 
-  .number_locked_Div span {
-    width: 40px;
-    height: 40px;
-    background: #1adec2;
-    border-radius: 50px;
-    margin-left: 20px;
-    color: #444;
-    font-weight: 700;
-    display: -webkit-flex;
+  .wallet_other_btns{
     display: flex;
-    -webkit-justify-content: center;
+    flex-direction: column;
+    align-items: end;
+  }
+  .anytime_locked_roi {
+    margin: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .anytime_locked_roi {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .footer_main_div {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    -webkit-align-items: center;
     align-items: center;
-    margin-top: 17px;
   }
-
-  .locked_left_right {
-    display: flex;
-    justify-content: space-between;
-    padding: 25px;
-  }
-  
-  .locked_left span {
-    color: #999;
-    font-size: 12px;
-  }
-  
-  .locked_left h2 {
-    color: #1adec2;
-  }
-  
-  .locked_left input {
-    border: none;
-    font-size: 25px;
-    width: 120px;
-    border-radius: 5px;
-    padding: 5px 10px;
-    margin-top: 5px;
-    background: linear-gradient(255.12deg, #211d3d, #15142b);
-    color: #1adec2;
-    font-weight: 600;
-  }
-  
-  .locked_right span {
-    color: #999;
-    font-size: 12px;
-  }
-  
-  .locked_right h2 {
-    color: #1adec2;
-  }
-  
-  .stake_locked_btn {
-      padding: 0 20px;
-      text-align: center;
-  }
-  
-  .stake_locked_btn button {
-      outline: none;
-      border: none;
-      border-radius: 20px;
-      width: 100%;
-      padding: 15px;
-      cursor: pointer;
-      background: #1adec2;
-      font-weight: 600;
-      margin-top: -5px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    /* total roi css */
+}
