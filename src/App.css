@@ -670,15 +670,15 @@ body {
   0% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
-}
-50% {
-  -webkit-transform: translateY(-18px);
-  transform: translateY(-18px);
-}
-100% {
-  -webkit-transform: translateY(0);
-  transform: translateY(0);
-}
+  }
+  50% {
+    -webkit-transform: translateY(-18px);
+    transform: translateY(-18px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
 }
 
 @media only screen and (max-width: 1100px) {
@@ -710,7 +710,7 @@ body {
     display: flex;
     flex-direction: column-reverse;
   }
-  .copy_url_div{
+  .copy_url_div {
     margin-top: 20px;
     margin-left: 50px;
   }
@@ -737,13 +737,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: self-start;
+    margin-left: 20px;
   }
   .logo_telegram {
     display: flex;
     flex-direction: column;
   }
 
-  .wallet_other_btns{
+  .wallet_other_btns {
     display: flex;
     flex-direction: column;
     align-items: end;
@@ -765,5 +766,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .animation_logo_main_div {
+    bottom: 30px;
+    left: 30px;
   }
 }
