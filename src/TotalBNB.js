@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 
 const TotalBNB = () => {
+  const [showResults, setShowResults] = useState(false);
+  const Show = () => setShowResults(true);
+
   return (
     <div className="Total_bnb_main_div">
-      <div className="url_div" >
-        <span id="url"  style={{display: "none"}}>Copied! "https://bnbminter.app/?ref=null"</span>
+      <div className="url_div">
+        {showResults ? (
+          <span id="url">
+            Copied! "https://bnbminter.app/?ref=null"
+          </span>
+        ) : null}
       </div>
       <div className="total_bnb_parts">
         <div className="mint_bnb_div">
@@ -25,7 +32,7 @@ const TotalBNB = () => {
           <span>Total Referral Earned</span>
           <span>Referral Withdrawn</span>
           <div className="copy_url_btn">
-            <button>COPY LINK</button>
+            <button onClick={Show}>COPY LINK</button>
           </div>
         </div>
         <div className="total_contract_balance_div">
