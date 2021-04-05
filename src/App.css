@@ -788,14 +788,19 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
+    align-items: end;
     margin-top: 20px;
     margin-left: 50px;
   }
   .copy_url_btn {
     position: relative;
-    transform: translate(0px, 30px);
+    width: 90%;
+    transform: translate(0px, 0px);
     justify-content: center;
+    margin-top: 10px;
+  }
+  .copy_url_btn button {
+    width: 100%;
   }
   .plan_div {
     width: 90%;
@@ -803,7 +808,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
+    align-items: end;
     margin-top: 20px;
   }
   .mint_bnb_div {
@@ -812,13 +817,19 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
+    align-items: end;
     margin-top: 20px;
   }
   .mint_bnb_btn {
-    position: absolute;
-    transform: translate(0px, 100px);
+    position: relative;
+    width: 90%;
+    transform: translate(0px, 0px);
     justify-content: center;
+    margin-top: 10px;
+  }
+
+  .mint_bnb_btn button {
+    width: 100%;
   }
 
   .about_main_div {
