@@ -37,14 +37,14 @@ body {
   outline-style: none;
   border-radius: 20px;
   cursor: pointer;
-  font-size: 12px;
+  font-size: 11px;
   border: none;
   height: 33px;
 }
 
 #telegram_btn i {
   margin-right: 5px;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .wallet_other_btns {
