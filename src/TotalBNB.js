@@ -2,18 +2,15 @@ import React, { useState } from "react";
 
 const TotalBNB = () => {
   const [showResults, setShowResults] = useState(false);
-  // const Show = () => setShowResults(true);
-  const Show = () => {
-    return setTimeout(() => {
-      setShowResults(true);
-    }, 1000);
-  };
+  const Show = () => setShowResults(true);
 
   return (
     <div className="Total_bnb_main_div">
       <div className="url_div">
         {showResults ? (
-          <span id="url">Copied! "https://bnbminter.app/?ref=null"</span>
+          <span id="url">
+            Copied! "https://bnbminter.app/?ref=null"
+          </span>
         ) : null}
       </div>
       <div className="total_bnb_parts">
