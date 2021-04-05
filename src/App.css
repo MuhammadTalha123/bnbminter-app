@@ -34,6 +34,7 @@ body {
   outline: none;
   outline-style: none;
   border-radius: 20px;
+  cursor: pointer;
   font-size: 12px;
   border: 1px solid #48139e;
   height: 36px;
@@ -64,6 +65,7 @@ body {
   padding: 10px;
   margin-right: 20px;
   width: 75px;
+  cursor: pointer;
   outline: none;
   outline-style: none;
   border-radius: 20px;
@@ -82,6 +84,7 @@ body {
   width: 125px;
   outline: none;
   outline-style: none;
+  cursor: pointer;
   border-radius: 20px;
   font-size: 12px;
   border: 1px solid #48139e;
@@ -99,6 +102,7 @@ body {
   padding: 10px;
   font-weight: 600;
   width: 130px;
+  cursor: pointer;
   outline: none;
   outline-style: none;
   border-radius: 20px;
@@ -756,6 +760,9 @@ body {
 
 @media only screen and (max-width: 600px) {
   .anytime_locked_roi {
+    display: none;
+  }
+  .animation_logo_main_div {
     display: none;
   }
 }
