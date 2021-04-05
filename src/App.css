@@ -779,7 +779,16 @@ body {
     display: flex;
     flex-direction: column-reverse;
   }
+  .total_contract_balance_div {
+    width: 85%;
+  }
   .copy_url_div {
+    width: 90%;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     margin-top: 20px;
     margin-left: 50px;
   }
@@ -789,14 +798,26 @@ body {
     justify-content: center;
   }
   .plan_div {
+    width: 90%;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     margin-top: 20px;
   }
   .mint_bnb_div {
+    width: 90%;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     margin-top: 20px;
   }
   .mint_bnb_btn {
     position: absolute;
-    transform: translate(0px, 90px);
+    transform: translate(0px, 100px);
     justify-content: center;
   }
 
