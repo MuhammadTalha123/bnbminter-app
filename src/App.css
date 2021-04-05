@@ -753,6 +753,12 @@ body {
   }
 }
 
+@media only screen and (max-width: 1050px) {
+  .total_contract_balance_div {
+    margin-top: 50px;
+  }
+}
+
 @media only screen and (max-width: 1000px) {
   .total_contract_balance_div {
     margin-top: 50px;
