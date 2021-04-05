@@ -19,7 +19,8 @@ body {
   flex-flow: wrap;
   align-items: center;
   justify-content: space-evenly;
-  margin-top: 35px;
+  margin-top: 30px;
+  margin-right: 50px;
 }
 
 .logo_telegram {
@@ -154,6 +155,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 30px;
+  margin-right: 50px;
 }
 
 .mint_bnb_div {
@@ -422,7 +424,6 @@ body {
 /* locked bnb css */
 
 .locked_bnb_main_div {
-  margin-top: 30px;
   display: flex;
   justify-content: center;
   flex-flow: wrap;
@@ -885,4 +886,3 @@ body {
     width: 95%;
   }
 }
-
