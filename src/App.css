@@ -290,6 +290,11 @@ body {
   font-size: 12px;
 }
 
+.copy_url_btn button:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
 .total_contract_balance_div {
   background: linear-gradient(255.12deg, #16122e, #0a091d);
   padding: 30px;
