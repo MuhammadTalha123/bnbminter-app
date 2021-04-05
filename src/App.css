@@ -37,8 +37,8 @@ body {
   border-radius: 20px;
   cursor: pointer;
   font-size: 12px;
-  border: 1px solid #48139e;
-  height: 36px;
+  border: none;
+  height: 33px;
 }
 
 #telegram_btn i {
@@ -72,7 +72,7 @@ body {
   border-radius: 20px;
   font-size: 12px;
   border: 1px solid #48139e;
-  height: 40px;
+  height: 33px;
 }
 
 #contract_btn {
@@ -89,7 +89,9 @@ body {
   border-radius: 20px;
   font-size: 12px;
   border: 1px solid #48139e;
-  height: 40px;
+  height: 33px;
+  text-align: center;
+  justify-content: center;
 }
 #contract_btn i {
   margin-right: 5px;
@@ -109,7 +111,7 @@ body {
   border-radius: 20px;
   font-size: 12px;
   border: 1px solid #48139e;
-  height: 40px;
+  height: 33x;
 }
 
 #connect_wallet_btn {
@@ -128,6 +130,7 @@ body {
 
 .Total_bnb_main_div {
   text-align: center;
+  margin-right: 30px;
 }
 
 .url_div {
@@ -150,7 +153,7 @@ body {
   flex-flow: wrap;
   align-items: center;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .mint_bnb_div {
@@ -318,7 +321,7 @@ body {
 /* anytime bnb css */
 
 .anytime_bnb_main_div {
-  margin-top: 100px;
+  margin-top: 30px;
   display: flex;
   justify-content: center;
   flex-flow: wrap;
@@ -636,7 +639,7 @@ body {
 
 /* animation_logo_main_div css */
 
-.animation_logo_main_div {
+/* .animation_logo_main_div {
   width: 60px;
   height: 60px;
   background: linear-gradient(255.12deg, #2b0b5e 30%, #eb6c92) !important;
@@ -669,9 +672,9 @@ body {
 
 .animation_logo_main_div i {
   font-size: 22px;
-}
+} */
 
-@keyframes bounce-1 {
+/* @keyframes bounce-1 {
   0% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -684,7 +687,7 @@ body {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
-}
+} */
 
 /* about page css */
 
@@ -828,8 +831,8 @@ body {
   .anytime_locked_roi {
     display: none;
   }
-  .animation_logo_main_div {
-    display: none;
+  #connect_wallet_btn {
+    margin-top: 5px;
   }
 }
 

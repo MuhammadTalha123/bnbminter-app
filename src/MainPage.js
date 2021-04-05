@@ -1,5 +1,4 @@
-import React from 'react';
-import AnimationLogo from "./AnimationLogo";
+import React from "react";
 import Navbar from "./Navbar";
 import TotalBNB from "./TotalBNB";
 import AnytimeBNB from "./AnytimeBNB";
@@ -8,17 +7,16 @@ import TotalRoi from "./TotalRoi";
 import Footer from "./Footer";
 
 const MainPage = () => {
-    return (
-        <div className="main_page_div">
-        <AnimationLogo />
-        <Navbar />
-        <TotalBNB />
-        <AnytimeBNB />
-        <LockedBNB />
-        <TotalRoi />
-        <Footer />
-        </div>
-    );
+  return (
+    <div className="main_page_div">
+      <Navbar />
+      <TotalBNB />
+      <AnytimeBNB />
+      <LockedBNB />
+      <TotalRoi />
+      <Footer />
+    </div>
+  );
 };
 
 export default MainPage;
