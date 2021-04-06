@@ -788,6 +788,7 @@ body {
   .total_bnb_parts {
     display: flex;
     flex-direction: column-reverse;
+    margin-right: 60px;
   }
   .total_contract_balance_div {
     width: 95%;

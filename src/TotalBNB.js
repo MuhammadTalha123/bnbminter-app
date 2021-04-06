@@ -1,9 +1,14 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const TotalBNB = () => {
   const [showResults, setShowResults] = useState(false);
   const Show = () => setShowResults(true);
-
+// useEffect(()=>{
+//   setTimeout(() => {
+//     setShowResults(!showResults)
+//   }, 1000);
+//   clearInterval(showResults);
+// },[showResults])
   return (
     <div className="Total_bnb_main_div">
       <div className="url_div">
